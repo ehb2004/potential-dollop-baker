@@ -1,14 +1,153 @@
-.myDisplay> div{
-/*   height: 40px;
-  width: 50px;
-  padding: 6px;
-  margin: 4px;
-  background-color: pink; */
+#bedroom {
+  height: 600px;
+  width: 800px;
+  background-color: #C5C3B6;
+  margin: auto;
 }
 
-.mySeats > div {
-/*   height: 40px;
-  width: 40px; */
-/*   margin: 2px; */
-  background-color: pink;
+#erikaBed {
+  right: -570px;
+  top: -370px;
+  height: 350px;
+  width: 230px;
+  position: relative;
+  background-color: #EFD2DF;
+  text-align: center;
+}
+
+#erikaPillow{
+  background-color: #d9b4d1;
+  height: 70px;
+  width: 120px;
+  margin: auto;
+}
+
+#seal {
+  position: relative;
+  transform: rotate(180deg);
+  font-size: 50px;
+  top: -65px;
+}
+
+#emilyBed {
+  right: 0px;
+  top: 230px;
+  height: 350px;
+  width: 230px;
+  position: relative;
+  background-color: #9CAF93;
+  text-align: center;
+}
+#emilyPillow{
+  background-color: white;
+  height: 70px;
+  width: 120px;
+  margin: auto;
+  top: 230px;
+  position: relative;
+}
+
+#window {
+  margin: auto;
+  background-color: #9BBAE8;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  line-height: 15px;
+}
+
+#erikaDesk {
+  background-color: #3d2c07;
+  color: white;
+  top: -370px;
+  right: -620px;
+  height: 250px;
+  width: 180px;
+  position: relative;
+  text-align: center;
+}
+
+#emilyDesk {
+  background-color: #3d2c07;
+  color: white;
+  height: 250px;
+  width: 180px;
+  top: -970px;
+  position: relative;
+  text-align: center;
+}
+
+#entrance {
+  background-color: gray;
+  width: 500px;
+  height: 400px;
+  right: -852px;
+  position: relative;
+}
+
+#erikaCloset {
+  background-color: #460638;
+  color: white;
+  transform: rotate(90deg);
+  text-align: center;
+  line-height: 195px;
+  position: relative;
+  width: 200px;
+  left: 300px;
+  height: 200px;
+}
+
+#emilyCloset {
+  background-color: #31504d;
+  color: white;
+  transform: rotate(90deg);
+  text-align: center;
+  line-height: 195px;
+  position: relative;
+  width: 200px;
+  left: 300px;
+  height: 200px;
+}
+
+#sink {
+  background-color: #bcc2c2;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  bottom: 400px;
+  transform: rotate(270deg);
+  text-align: center;
+  line-height: 150px;
+}
+
+#brDoor {
+  background-color: #4d2b04;
+  color: white;
+  width: 120px;
+  transform: rotate(270deg);
+  top: -285px;
+  left: -48px;
+  position: relative;
+  text-align: center;
+}
+
+#hallDoor {
+  background-color: #4d2b04;
+  color: white;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  top: -198px;
+  left: 178px;
+}
+
+#welcome {
+  position: relative;
+  background-color: purple;
+  color: white;
+  width: 312px;
+  height: 200px;
+  top: -1020px;
+  font-family: 'Times New Roman', serif;
+  font-size: 15px;
 }
